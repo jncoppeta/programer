@@ -1,0 +1,79 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 100vh;
+}
+
+.welcome-div {
+  text-align: center;
+  padding: 50px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.welcome-lock-div {
+  position: absolute;
+  top: 90%;
+  left: 47%;
+}
+
+#welcome-lock {
+  justify-content: center;
+}
+
+.home-page {
+  background-color: #282c34;;
+  color: aliceblue;
+  height: 100%;
+}
+
+.sandbox-page {
+  background-color: #282c34;
+  color: aliceblue;
+  height: 100%;
+}
+
+.programs-page {
+  background-color: #282c34;
+  color: aliceblue;
+  height: 100%;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+} 
+
+#card-row {
+  padding: 50px;
+}
+
+#programs-table-container {
+  position: relative;
+  top: 8%;
+  width: 90%;
+  padding: 25px;
+}
+
+#program-table {
+  margin-bottom: 100px;
+}
+
+#even-row {
+  background-color: rgb(252, 123, 123);
+}
+
+#odd-row {
+  background-color: rgb(182, 182, 182);
+}
+
+#home-button-container {
+  margin-top: 25px;
+}

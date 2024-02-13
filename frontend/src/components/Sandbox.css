@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle-button {
+    justify-content: center;
+    width: 20%;
+    color: black;
+    font-size: 15px;
+    font-weight: 750;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+#toggle-button:hover {
+    background-color: rgb(189, 189, 189);
+    border-color: rgb(189, 189, 189);
+}
+
+#tool-bar {
+    padding: 20px;
+    width: 90%;
+}
+
+.week {
+    display: flex;
+  }
+  
+.day {
+    border: 2px solid #000000; /* Add your styling here */
+    margin: 4px; /* Adjust the margin as needed */
+    padding: 8px; /* Add your padding here */
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+#program-container {
+    justify-content: center;
+    width: 100%;
+}
+
+#edit-container,
+#page-container,
+#modify-container {
+    display: flex;
+    justify-content: center;
+}
+
+#modify-container {
+    padding: 15px;
+}
+
+#page-container {
+    margin-bottom: 15px;
+}
+
+#table-container {
+    position: relative;
+    top: 8%;
+    width: 80%;
+}
+
+.btn.btn-outline-primary {
+    width: 10%;
+    justify-content: center;
+    margin: 5px;
+}
+
+#success-popup {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px;
+}
+
+#view-bar {
+    padding: 30px;
+    position: relative;
+    justify-content: center;
+    width: 95%;
+}
+
+#view-div {
+    background-color: transparent;
+    left: 3%;
+    position: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#day-view-container {
+    position: relative;
+    width: 95%;
+    top: -4%;
+}
+
+#current-day-marker {
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.page-arrow:hover {
+    color: rgb(189, 185, 185);
+}
+
+#form-container {
+    margin-top: 50px;
+}
+
+#home-icon:hover {
+    font-size: 15px;
+}
+
+#create-program-form-input{
+    margin: 3px;
+}

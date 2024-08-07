@@ -1,5 +1,5 @@
 const express = require('express')
-const mysql = require('mysql')
+const mysql = require('mysql2')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
@@ -11,10 +11,18 @@ app.use(bodyParser.urlencoded({
 }))
 
 const db = mysql.createConnection({
-    host: "localhost",
+    host: "mysql",
     user: "root",
     password: "password",
     database: "programer"
+})
+
+app.listen(8081, () => {
+    console.log("listening on port 8081")
+    db.connect(function(err){
+        if(err) throw err;
+        console.log("Database connected!")
+    })
 })
 
 app.get('/', (req, res) => {
@@ -248,10 +256,3 @@ app.delete("/remove/week", (req, res) => {
     })
 })
 
-app.listen(8081, () => {
-    console.log("listening on port 8081")
-    db.connect(function(err){
-        if(err) throw err;
-        console.log("Database connected!")
-    })
-})

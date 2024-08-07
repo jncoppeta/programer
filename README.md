@@ -7,42 +7,19 @@ A web application built for the purpose of creating new workout programs.
 ```bash
 git clone https://github.com/jncoppeta/programer.git
 ```
-2. Open the ```programer/backend/server.js``` file
-3. Modify the following to match your database
-```javascript
-const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "password",
-    database: "programer"
-})
-```
+That's it! You're ready to go now.
 
 ## Running the App
-2. cd into the backend
+1. cd into init
 ```bash
-cd programer/backend
+cd programer/init
 ```
-4. Install dependencies
-```bash
-npm install
+2. Run the compose file with the build option
 ```
-4. Start the backend server
-```bash
-npm start
+docker-compose up --build
 ```
-5. cd into the frontend
-```bash
-cd ../frontend
-```
-6. install dependenices
-```bash
-npm install
-```
-7. Start the frontend client
-```bash
-npm start
-```
+3. Visit the site [here](http://localhost:80)!
+
 
 ## Web Stack
 

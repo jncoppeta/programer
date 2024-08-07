@@ -22,7 +22,7 @@ docker-compose up --build
 
 3. Visit the site [here](http://localhost:80)!
 
-
+4. In order to create a program, click the sandbox tab in the top header. Then click Create New Program. You now have the ability to fully customize your project. When you are ready to publish it, select the `Publish Program` option from the dropdown and enter the project's respective ID. Now if you click the `projects` tab on the top header, you will see your new project. Click on that project to see the program in its entirety. If you made a mistake and want to change something, simply go the sandbox, select the `Backlog Project` option, enter its ID, and you can now edit the program again.
 ## Web Stack
 
 - **Frontend:** React

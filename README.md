@@ -28,7 +28,7 @@ docker-compose up --build
 - **Frontend:** React
 - **Backend:** Node.js, ExpressJS
 - **Database:** MySQL
-- **Other:** TailwindCSS, Bootstrap, FontAwesome
+- **Other:** Docker, TailwindCSS, Bootstrap, FontAwesome
 
 
 

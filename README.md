@@ -18,6 +18,7 @@ cd programer/init
 ```
 docker-compose up --build
 ```
+(note: wait until the frontend starts. This is evident by messages such as `frontend  | 2024/08/07 01:53:45 [notice] 1#1: start worker process 53`
 3. Visit the site [here](http://localhost:80)!
 
 
